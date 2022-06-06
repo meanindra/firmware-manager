@@ -814,7 +814,7 @@ dependencies = [
  "slotmap",
  "system76-firmware-daemon",
  "thiserror",
- "tokio 1.5.0",
+ "tokio 1.8.4",
  "tokio-udev",
  "users",
  "xdg",
@@ -3366,14 +3366,15 @@ dependencies = [
 
 [[package]]
 name = "tokio"
-version = "1.5.0"
+version = "1.8.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "83f0c8e7c0addab50b663055baf787d0af7f413a46e6e7fb9559a4e4db7137a5"
+checksum = "50dae83881bc9b0403dd5b44ea9deed3e939856cc8722d5be37f0d6e5c6d53dd"
 dependencies = [
  "autocfg 1.0.1",
  "libc",
  "mio 0.7.11",
  "pin-project-lite",
+ "winapi 0.3.9",
 ]
 
 [[package]]
@@ -3499,7 +3500,7 @@ dependencies = [
  "futures-core",
  "mio 0.7.11",
  "mio-udev",
- "tokio 1.5.0",
+ "tokio 1.8.4",
 ]
 
 [[package]]
